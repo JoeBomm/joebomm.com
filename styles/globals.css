@@ -10,6 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-cream: oklch(0.9359 0.0653 112.3);
+  --color-tea-green: oklch(0.8828 0.0781 128.48);
+  --color-pistachio: oklch(0.7495 0.1199 132.78);
+  --color-carrot-orange: oklch(0.7307 0.1596 65.99);
+  --color-drab-dark-brown: oklch(0.3299 0.0388 108.35);
 }
 
 @media (prefers-color-scheme: dark) {

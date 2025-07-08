@@ -1,5 +1,0 @@
-#EAEFBD cream
-#C9E3AC tea green
-#90BE6D Pistachio
-#EA9010 Carrot Orange
-#37371F Drab Dark Brown

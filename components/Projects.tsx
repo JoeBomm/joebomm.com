@@ -1,7 +1,9 @@
 export default function Projects() {
   return (
     <>
-    Projects Component
+      <h2>
+        Projects
+      </h2>
     </>
   )
 }
