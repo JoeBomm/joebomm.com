@@ -23,7 +23,7 @@ export default function Home() {
       className={`${geistSans.className} ${geistMono.className}flex flex-col items-center  p-4 gap-4`}>
         <main className="flex flex-col items-center gap-12">
           <About/>
-          <Projects/>
+          {false ? <Projects/> : <></>}
           <Contact/>         
         </main>
       </div>
