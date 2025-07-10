@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #EAEFBD;
-  --foreground: #EAEFBD;
+  --background: var(--color-cream);
+  --foreground: var(--color-drab-dark-brown);
 }
 
 @theme inline {
@@ -15,12 +15,13 @@
   --color-pistachio: oklch(0.7495 0.1199 132.78);
   --color-carrot-orange: oklch(0.7307 0.1596 65.99);
   --color-drab-dark-brown: oklch(0.3299 0.0388 108.35);
+  --color-heading: var(---color-pistachio);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #37371F;
-    --foreground: #EAEFBD;
+    --background: var(--color-drab-dark-brown);
+    --foreground: var(--color-cream);
   }
 }
 

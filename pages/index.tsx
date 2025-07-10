@@ -1,7 +1,6 @@
 import Header from "@/components/Header"
 import About from "@/components/About"
 import Projects from "@/components/Projects"
-import Contact from "@/components/Contact"
 
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -24,7 +23,6 @@ export default function Home() {
         <main className="flex flex-col items-center gap-12">
           <About/>
           {false ? <Projects/> : <></>}
-          <Contact/>         
         </main>
       </div>
     </>
