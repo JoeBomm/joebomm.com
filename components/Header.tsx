@@ -11,7 +11,7 @@ export default function Header() {
         </div>
         <nav className="flex items-center space-x-4">
           <a href="#about" className="hover:underline">About</a>
-          { false ? <a href="#projects" className="hover:underline">Projects</a> : <></> }
+          <a href="#projects" className="hover:underline">Projects</a>
           <a href="https://github.com/JoeBomm" target="_blank" rel="noopener noreferrer" className="hover:underline">Github</a>
           <a href="mailto:hello@joebomm.com">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="size-6">
